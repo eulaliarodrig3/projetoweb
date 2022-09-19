@@ -1,0 +1,17 @@
+#total { width: 960px;
+height: auto;
+margin: auto; }
+#topo { width: 960px;
+    height: auto;
+    float: left;
+    background-color: aqua;
+}
+#logo{width: 210px;
+    height: 70px;
+    margin:  10px auto; 
+    background-color: aquamarine; }
+
+#banner { width: 960px;
+        height: 300px;
+        float: left;
+      background-image: url("../imagem/banner.jpg");}
