@@ -1,0 +1,39 @@
+vizualizar: show databases;
+mysql -u root
+create databases aula1tarde
+show databases
+conectar banco de dados
+use aula1tarde;
+apaga base de dados 
+drop database aula1tarde;
+#criar tabela 
+create table aluno(
+nome varchar(40),
+idade int,
+endereco varchar(50),
+estado char (2),
+sexo enum("F","M")
+);
+visualiazar os alunos cadastrodos 
+select * from aluno;
+-vamos inserir mais outros alunos
+insert into aluno values("ana",25,"rua a","rj","f") 
+select * from aluno;
+crie um banco de dados com nome gastronomia 
+dentro deste banco crie a seguinte tabela 
+receita
+nome 
+autor
+ingrediente
+tipo enum("doce" "salgado") 
+cadastre 5 tipo de receita nesta tabela.
+
+
+
+create database exercicio1;
+
+create table receita(
+nome varchar(40),
+autor varchar,
+ingredientes,
+tipo enum("d","s")); 
